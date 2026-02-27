@@ -1,0 +1,25 @@
+{
+  "fine_tuning_steps": [
+    "1. Collect domain-specific data (minimum 500-1000 examples)",
+    "2. Format as instruction-input-output pairs",
+    "3. Choose base model (LLaMA, Mistral, Phi)",
+    "4. Use LoRA/QLoRA for efficient fine-tuning",
+    "5. Train on GPU (Google Colab free tier works)",
+    "6. Evaluate on test set",
+    "7. Deploy fine-tuned model"
+  ],
+  "recommended_tools": [
+    "Unsloth - fastest fine-tuning library",
+    "Axolotl - flexible training framework",
+    "HuggingFace - model hub and training",
+    "Google Colab - free GPU for training",
+    "Weights & Biases - experiment tracking"
+  ],
+  "training_data_sources": [
+    "Manual creation (highest quality)",
+    "GPT-4 generated synthetic data",
+    "Web scraping domain content",
+    "Company internal documents",
+    "Public datasets on HuggingFace"
+  ]
+}
